@@ -43,8 +43,8 @@
     background-color: #8446D2;
     height: 100vh;
 
-    position:relative;
-    padding-bottom:50px;
+    position: relative;
+    padding-bottom: 50px;
 }
 
 
@@ -62,7 +62,7 @@
     font-weight: bold;
     color: white;
     font-size: 10vw;
-    margin-bottom: 40px;
+    margin-bottom: 4vw;
 }
 
 .hero .text p{
@@ -82,7 +82,7 @@
     width: 50vw;
     
     position: absolute;
-    bottom: 3vw;
+    bottom: 1vw;
 }
 
 .btn-rad{
@@ -90,20 +90,19 @@
     background-color: rgba(225, 225, 225, 0.44);
     color: white;
     font-family: TT Hoves;
-    font-size: 2vw;
-    padding: 20px 30px; 
-    margin-right: 15px;
+    font-size: 1.8vw;
+    padding: 2vw 3vw; 
+    margin-right: 1.5vw;
 
-    margin-bottom: 15px;
+    margin-bottom: 1.5vw;
 
-    border-radius: 20px;
+    border-radius: 2vw;
 
     cursor: pointer;
 }
 
 .app{
     background-color: #28A9EA;
-    height: 100vh;
 }
 
 .app-text h2{
@@ -119,7 +118,7 @@
     color: white;
     font-size: 4vw;
     width: 14em;
-    margin-bottom: 40px;
+    margin-bottom: 4vw;
 }
 
 .app-text ul li{
@@ -131,11 +130,17 @@
     margin-bottom: 1vw;
 }
 
+.app-img img{
+    width: 35vw;
+}
+
 .icon-btn{
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+
+    width: 41.7vw;
 }
 
 .icon-btn img{
@@ -148,6 +153,7 @@
 
 .sections-card{
     width: 95vw;
+    height: 20vw;
     padding: 2vw 3vw;
     border-radius: 3vw;
     display: flex;
@@ -165,6 +171,11 @@
     background-color: #FB5F1F;
 }
 
+.sections-card.orange img{
+    position: relative;
+    left: 6vw;
+}
+
 
 .sections-card.yellow{
     background-color: #FEB201;
@@ -176,6 +187,10 @@
 
 .sections-card.blue{
     background-color: #0697FA;
+}
+
+.sections-card.blue img{
+    
 }
 
 .sections-card.dark-blue{
@@ -194,7 +209,7 @@
 }
 
 .sections-text{
-    width: 113px;
+    width: 11.3vw;
 }
 
 .sections-text h4{
@@ -211,10 +226,11 @@
     font-weight: normal;
     font-size: 1.5vw;
     color: white;
-    width: 300px;
+    width: 30vw;
 }
 
 .sections-img img{
     width: 20vw;
+    object-fit:fill;
 }
 
