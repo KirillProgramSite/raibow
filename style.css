@@ -35,6 +35,8 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
+    
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -155,7 +157,7 @@
 
 .sections-card{
     width: 95vw;
-    height: 15vw;
+    height: 20vw;
     padding: 2vw 3vw;
     border-radius: 3vw;
     display: flex;
@@ -167,6 +169,10 @@
 
 .sections-card.red{
     background-color: #E91B40;
+}
+
+.sections-card.red img{
+    width: 20vw;
 }
 
 .sections-card.orange{
@@ -189,12 +195,31 @@
     background-color: #00C799;
 }
 
+.sections-card.green img{
+    position: relative;
+    top: -4vw;
+}
+
 .sections-card.blue{
     background-color: #0697FA;
 }
 
+.sections-card.blue img{
+    width: 40vw;
+    position: relative;
+    top: -12vw;
+    left: 12vw;
+}
+
 .sections-card.dark-blue{
     background-color: #4941FE;
+}
+
+.sections-card.dark-blue img{
+    width: 50vw;
+    position: relative;
+    top: -10vw;
+    left: 20vw;
 }
 
 .sections-card.purple{
@@ -230,9 +255,10 @@
 }
 
 .sections-img img{
-    width: 15vw;
+    width: 25vw;
     object-fit:fill;
 }
+
 
 .faq{
     margin-top: 10vw;
@@ -246,14 +272,65 @@
     margin-bottom: 4vw;
 }
 
+
+.faq-card-title{
+    margin-bottom: 5vw;
+}
+
 .faq-card-title h5{
     font-family: Kica;
     font-weight: bold;
     color: black;
     font-size: 4vw;
-    width: 14em;
-    margin-bottom: 4vw;
 }
+
+.faq-card-title img{
+    width: 5vw;
+}
+
+.faq-cards{
+    margin-top: 6vw;
+}
+
+.faq-card{
+    margin-bottom: 3.5vw;
+    border-radius: 4vw;
+    padding: 7vw 4vw 6vw;
+    background-color: white;
+    box-shadow: -1px 74px 200px rgba(54, 54, 54, .15);
+}
+
+.faq-card-text{
+    padding: 3vw 0vw 5vw 5vw;
+    border-radius: 4vw;
+    background-image: url(./img/bg-fq.png);
+}
+
+.faq-card-text p{
+    font-family: TT Hoves;
+    font-weight: normal;
+    font-size: 2vw;
+    color: black;
+    width: 50vw;
+}
+
+
+@media(max-width: 426px){
+    .faq-card-text p{
+        font-size: 5vw;
+    }
+
+    .faq-card-title img{
+        width: 10vw;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -327,6 +404,15 @@
         width: 70vw;
     }
 
+    .sections-text h4{
+        font-size: 5vw;
+    }
 
+    .sections-text p{
+        font-size: 2.5vw;
+    }
 
+    .sections-card{
+        height: 30vw;
+    }
 }
