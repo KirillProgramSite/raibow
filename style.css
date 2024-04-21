@@ -29,7 +29,6 @@
 }
 
 .container{
-    /* width: 90vw; */
     margin: 0 2vw;
 }
 
@@ -44,13 +43,12 @@
     height: 100vh;
 
     position: relative;
-    padding-bottom: 50px;
 }
 
 
 .hero .img img{
     width: 40.5vw;
-    height: 100vh;
+    height: 110vh;
     object-fit: cover;
 }
 
@@ -103,6 +101,7 @@
 
 .app{
     background-color: #28A9EA;
+    height: 45vw;
 }
 
 .app-text h2{
@@ -112,7 +111,7 @@
 
 
 .app-text h2{
-    padding-top: 72px;
+    padding-top: 7.2vw;
     font-family: Kica;
     font-weight: bold;
     color: white;
@@ -148,17 +147,17 @@
 }
 
 .sections{
-    margin-top: 10vh;
+    margin-top: 10vw;
 }
 
 .sections-card{
     width: 95vw;
-    height: 20vw;
+    height: 15vw;
     padding: 2vw 3vw;
     border-radius: 3vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     overflow: hidden;
 }
 
@@ -173,7 +172,9 @@
 
 .sections-card.orange img{
     position: relative;
+    width: 30vw;
     left: 6vw;
+    top: -6vw;
 }
 
 
@@ -189,10 +190,6 @@
     background-color: #0697FA;
 }
 
-.sections-card.blue img{
-    
-}
-
 .sections-card.dark-blue{
     background-color: #4941FE;
 }
@@ -204,8 +201,8 @@
 .sections h3{
     font-family: Kica;
     font-weight: bold;
-    font-size: 3vw;
-    margin-bottom: 8vw;
+    font-size: 6vw;
+    margin-bottom: 6vw;
 }
 
 .sections-text{
@@ -218,7 +215,7 @@
     font-weight: normal;
     font-size: 3vw;
     color: white;
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
 }
 
 .sections-text p{
@@ -230,7 +227,52 @@
 }
 
 .sections-img img{
-    width: 20vw;
+    width: 15vw;
     object-fit:fill;
 }
 
+.faq{
+    margin-top: 10vw;
+}
+
+.faq h4{
+    font-family: Kica;
+    font-weight: bold;
+    color: black;
+    font-size: 6vw;
+    margin-bottom: 4vw;
+}
+
+.faq-card-title h5{
+    font-family: Kica;
+    font-weight: bold;
+    color: black;
+    font-size: 4vw;
+    width: 14em;
+    margin-bottom: 4vw;
+}
+
+
+
+@media(max-width: 426px){
+
+    .text-hero-bottom{
+        position: relative;
+
+        margin-bottom: 31vw;
+        margin-top: 5vw;
+    }
+    .hero .img{
+        top: 2vw;   
+        position: relative;
+    }
+    .hero .img img{
+        height: auto;
+        width: 100%;
+        height: 60vw;
+    }
+
+    .hero .wrapper{
+        display: block;
+    }
+}
