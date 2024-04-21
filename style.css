@@ -105,12 +105,7 @@
 
 .app{
     background-color: #28A9EA;
-    height: 45vw;
-}
-
-.app-text h2{
-    font-family: Kica;
-    font-weight: bold;
+    height: 100vh;
 }
 
 
@@ -133,6 +128,10 @@
     margin-bottom: 1vw;
 }
 
+.app-img{
+    margin-top: 4vw;
+}
+
 .app-img img{
     width: 35vw;
 }
@@ -143,7 +142,7 @@
     justify-content: space-between;
     cursor: pointer;
 
-    width: 41.7vw;
+    width: 40vw;
 }
 
 .icon-btn img{
@@ -151,7 +150,7 @@
 }
 
 .sections{
-    margin-top: 10vw;
+    margin-top: 30vw;
 }
 
 .sections-card{
@@ -214,7 +213,7 @@
 }
 
 .sections-text h4{
-    width: 500px;
+    width: 289px;
     font-family: Kica;
     font-weight: normal;
     font-size: 3vw;
@@ -259,13 +258,24 @@
 
 
 @media(max-width: 426px){
-
     .hero{
         height: auto;
     }
 
     .btn-rad{
         font-size: 5vw;
+    }
+
+    .icon-btn{
+        width: 70vw;
+    }
+
+    .icon-btn img {
+        width: 10vw;
+    }
+
+    .app-img img {
+        width: 85vw;
     }
 
     .hero .text h1{
@@ -300,4 +310,23 @@
     .hero .wrapper{
         display: block;
     }
+    
+    .app .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-text h2{
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .app-text ul li {
+        font-size: 5vw;
+        text-align: center;
+        width: 70vw;
+    }
+
+
+
 }
