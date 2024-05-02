@@ -37,6 +37,10 @@
     flex-wrap: wrap;
 }
 
+.link {
+    text-decoration: none;
+}
+
 
 @keyframes changeBackground {
     0% { background-color: #E91B40; }
@@ -57,7 +61,7 @@
 
 .hero .img img{
     width: 40.5vw;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -97,6 +101,7 @@
 
 
 .btn-rad{
+    text-decoration: none;
     display: inline-block;
     background-color: rgba(225, 225, 225, 0.44);
     color: white;
@@ -111,6 +116,7 @@
 
     cursor: pointer;
 }
+
 
 @media (max-width: 426px) {
     .hero {
@@ -181,7 +187,7 @@
     color: white;
     font-size: 1.7vw;
     width: 50vw;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
 }
 
 .app-img{
@@ -193,6 +199,7 @@
 }
 
 .icon-btn{
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -302,7 +309,7 @@
     font-weight: normal;
     font-size: 3vw;
     color: white;
-    margin-bottom: 5vw;
+    margin-bottom: 8vw;
 }
 
 .sections-text p{
@@ -321,6 +328,7 @@
 @media (max-width: 1024px) {
     .sections-text h4 {
         font-size: 4.5vw;
+        margin-bottom: 5vw;
     }
 
     .sections-text p {
@@ -409,10 +417,6 @@
         font-size: 5vw;
     }
 
-    .faq-card-title img{
-        width: 10vw;
-    }
-
     .faq-card.active{
         height: 130vw;
         box-shadow: -1px 74px 200px rgba(54, 54, 54, .15);
@@ -430,16 +434,8 @@
 }
 
 
-.questions{
-    background-color: #D3F2FF;
-    border-radius: 42px;
-    padding-top: 3.6vw;
-    padding-left: 5.8vw;
-    padding-right: 5.8vw;
-    padding-bottom: 6.4vw;
-}
 
-.questions .text h3,
+
 .feedback .text h3{
     padding-bottom: 2.5vw;
     font-family: Kica;
@@ -448,7 +444,6 @@
     font-size: 3vw;
 }
 
-.questions .text p,
 .feedback .text p{
     font-family: TT Hoves;
     font-weight: normal;
@@ -458,13 +453,11 @@
     padding-bottom: 2.4vw;
 }
 
-.questions-img img{
-    width: 30vw;
-}
+
 
 .feedback{
     margin-top: 5.5vw;
-    border-radius: 42px;
+    border-radius: 4vw;
     background-color: #FFFBD3;
     height: 40vw;
     overflow-y: hidden;
@@ -502,14 +495,13 @@
         margin: 0;
         height: auto;
     }
-
-    .questions .wrapper,
-    .feedback .wrapper{
-        flex-direction: column;
-    }
     
-    .feedback-img{
+    /* .feedback-img{
         display: none;
+    } */
+
+    .feedback-img img{
+        width: 45vw;
     }
     
     .questions .text .btn-rad.icon-btn{
@@ -539,7 +531,7 @@
 .vk{
     background-color: #337AE5;
     width: 100%;
-    height: 75vw;
+    height: 50vw;
     border-radius: 100% 100% 0 0;
 }
 
@@ -573,8 +565,23 @@
     width: 42vw;
 }
 
+.footer{
+    font-family: TT Hoves;
+    color: white;
+    padding: 4vw 2vw;
+    background-color: #242424;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
 
 @media(max-width: 426px){
+    .vk{
+        height: 70vw;
+    }
     .vk-text p{
         font-size: 4vw;
         width: 70vw;

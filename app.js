@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (element.style.maxHeight) {
             element.style.maxHeight = null;
         } else {
-            element.style.height = 100 + "px";
+            element.style.height = 150 + "vw";
         }
     }
 
