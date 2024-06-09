@@ -23,4 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function toggleArrow(arrow) {
         arrow.classList.toggle('rotate');
     }
+
+    document.querySelectorAll('.text-hero-bottom .btn-rad').forEach(button => {
+        button.addEventListener('click', function() {
+            window.location.href = 'tel:+79999999999';
+        });
+    });
 });
