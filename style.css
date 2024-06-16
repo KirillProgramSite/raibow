@@ -220,7 +220,7 @@
 }
 
 .sections{
-    margin-top: 20vw;
+    margin-top: 15vw;
 }
 
 .sections-card{
@@ -335,13 +335,13 @@
 
     .sections-text p {
         font-size: 2.5vw;
-        width: 64vw;
+        width: 62vw;
     }
 }
 
 
 .faq{
-    margin-top: 10vw;
+    margin-top: 15vw;
 }
 
 .faq h4{
@@ -358,6 +358,7 @@
 
 
 .faq-card-title{
+    cursor: pointer;
     margin-bottom: 5vw;
 }
 
@@ -379,9 +380,9 @@
 .faq-card{
     height: 0;
     overflow: hidden;
-    margin-bottom: 3.5vw;
+    margin-bottom: 2vw;
     border-radius: 4vw;
-    padding: 7vw 4vw 6vw;
+    padding: 4vw 4vw 6vw;
     background-color: white;
     transition: .5s ease-in-out;
 }
@@ -395,6 +396,7 @@
     padding: 3vw 0vw 5vw 5vw;
     border-radius: 4vw;
     background-image: url(./img/bg-fq.png);
+    background-size: cover;
 }
 
 .faq-card-text p{
@@ -428,12 +430,18 @@
 }
 
 .blocks{
-    padding-top: 10vw;
-    padding-bottom: 20vw;
+    padding: 2vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    background-color: #FFFBD3;
 }
 
 .blocks .container .wrapper.wrapper-blocks{
     display: block;
+}
+
+.wrapper.wrapper-feedback{
+    align-items: center;
 }
 
 
@@ -458,29 +466,13 @@
 
 
 
-.feedback{
-    margin-top: 5.5vw;
-    border-radius: 4vw;
-    background-color: #FFFBD3;
-    height: 40vw;
-    overflow-y: hidden;
-
-    position: relative;
-}
-
-
-.feedback .text{
-    padding-top: 14.8vw;
-    padding-right: 17vw;    
-}
-
 .feedback-img{
     position: relative;
-    right: 10vw;
+    right: 5vw;
 }
 
 .feedback-img img{
-    width: 50vw;
+    width: 45vw;
 }
 
 @media(max-width: 426px){
@@ -524,6 +516,11 @@
     .questions .text p,
     .feedback .text p{
         font-size: 3vw;
+    }
+    .feedback .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .questions-img img{
